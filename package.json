@@ -1,0 +1,14 @@
+{
+  "name": "user-details",
+  "version": "1.0.0",
+  "description": "a simple app to show user its ip address,working platform and browser language.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
