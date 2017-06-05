@@ -9,7 +9,7 @@ app.get('/',function(req,res){
 
      
      var info = {
-         'ipaddress': req.ip,
+         'ipaddress': req['x-forwarded-for']||req.connection.remoteAddress,
          'language': req.acceptsLanguages(),
          'software':platform 
      };
